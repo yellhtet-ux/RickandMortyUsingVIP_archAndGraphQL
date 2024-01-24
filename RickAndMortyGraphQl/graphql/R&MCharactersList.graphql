@@ -1,0 +1,23 @@
+
+query CharactersList {
+  characters {
+    info {
+      next
+      prev
+      count
+      pages
+    }
+    results {
+      id
+      image
+      name
+      gender
+            species
+      location {
+        id
+        name
+        dimension
+      }
+    }
+  }
+}
